@@ -1,7 +1,6 @@
 * {
     font-family: sans-serif;
 }
-
 button:active {
     position:relative;
 	top:5px;
@@ -13,10 +12,6 @@ button{
     margin: 15px;
     cursor: pointer;
 }
-
-
-/********************************************************************************/
-
 .gradient-button1 button{
     padding: 1px 50px 1px 50px;
     background-size: 200% auto;
@@ -27,7 +22,6 @@ button{
     color: #9e5ca7;
     font-size: 40px;
     text-shadow: 2px 2px 5px rgb(255, 0, 170);
-
 }
 #button2{
     background-color: #01D1AF;
@@ -43,6 +37,7 @@ button{
     background-color: rgb(52, 141, 224);
     border: 1px solid black;
     border-radius: 0px;
+    box-shadow: 7px 7px 4px black;
     color: white;
     font-size: 20px;
     width: 250px;
