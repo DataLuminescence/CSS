@@ -3,14 +3,14 @@ button:active {
     position:relative;
 	top:5px;
 }
-.gradient-button1 button, .btn-add, .btn-create{
+.btn-search, .btn-add, .btn-create{
     display:block;
     margin-bottom: 10px;
     height: 40px;
     cursor: pointer;
     
 }
-.gradient-button1 button{
+.btn-search{
     padding: 1px 50px 1px 50px;
     background-size: 200% auto;
     background-position: center;
