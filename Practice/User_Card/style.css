@@ -11,9 +11,9 @@
     align-items: center;
 }
 
-.justify-between {
+/* .justify-between {
     justify-content: space-between;
-}
+} */
 
 .user-card {
     margin: 0 auto;
