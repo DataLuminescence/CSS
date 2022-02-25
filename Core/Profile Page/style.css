@@ -1,0 +1,114 @@
+
+/**************************** GENERAL PURPOSE CSS ****************************/
+
+* {
+    margin:0px;
+    padding:0px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/**************************** NAV BAR CSS ****************************/
+
+.nav {
+    background-color: #333333;
+    color: #17a2b8;
+    padding: 5px;
+}
+a{
+    color: #17a2b8;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    width: 50%;
+}
+.btn{
+    background-color: #17a2b8;
+    border: 2px solid black;
+    border-radius: 0px;
+    box-shadow: 3px 3px black;
+    color: #333333;
+    width: 100px;
+    height:25px;
+}
+
+button.btn:hover{
+    background: #333333;
+    color: #17a2b8;
+    transition: ease-in-out .8s;
+    cursor: pointer;
+}
+
+/**************************** PROFILE CSS ****************************/
+
+.col-1 {
+    padding: 40px;
+}
+
+.col-2 {
+    flex: 2;
+    padding: 20px;
+}
+
+.user-card {
+    margin: 0 auto;
+    width: 100%;
+    border: 4px solid #333333;
+    padding-bottom: 25px;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 80px;
+    padding-top: 80px;
+    padding-left: 50px;
+    margin-bottom: 100px;
+}
+
+.card-header img {
+    height: 150px;
+    width: auto;
+    border: 4px solid #333333;
+    border-radius: 50%;
+}
+
+.card-body {
+    margin-left: 25px;
+}
+
+.card-body h1, .card-body div, .card-body p {
+    margin-bottom: 10px;
+}
+
+.card-body img {
+    height: 25px;
+    margin-right: 10px;
+    width: auto;
+}
+
+/***************** CONNECTION REQUEST CSS ****************************/
+
+.col-1 img{
+    flex: 2;
+    padding: 20px;
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+}
+
