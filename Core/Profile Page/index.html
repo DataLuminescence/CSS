@@ -4,26 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Card</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Profile</title>
 </head>
 <body>
-
-
-        <div class="nav flex justify-between align-center">
-            <h1 class="nav-title">Profile</h1>
-            <ul class="nav-links flex align-center justify-evenly">
-                <li><a href="#">Home</a></li>
-                <li><a href="#" class="active">My Profile</a></li>
-                <li><a href="#">Find Connections</a></li>
-                <li><button class="btn">Sign Out</button></li>
-            </ul>
+    <div class="nav">
+        <div class="nav-content flex justify-around align-center">
+            <div class="nav-links flex align-center justify-evenly">  
+                <h1>Profile</h1>
+                <a href="#">Home</a>
+                <a href="#" class="active">My Profile</a>
+                <a href="#">Find Connections</a>
+            </div>
+            <button class="btn">Sign Out</button>
         </div>
-
-<!-- ****************************************************************************************** -->
-    
+    </div>
     <div class="flex">
-
         <div class="col-1">
         </div>
         <div class="col-2">
@@ -46,20 +42,32 @@
                 </div>
             </div>
         </div>
-
         <div class="col-2">
-            <div class="col-1">
-                <img src="./images/user-circle.png" alt="User Circle">
-                <img src="./images/user-circle.png" alt="User Circle">
+            <div class="req-box flex flex-column align-evenly justify-center">    
+                <div class="req-num flex justify-between align-center">
+                    <div class="req-circle flex"><p>2</p></div>
+                    <div class="req-txt flex"><p>Connection Requests</p></div>
+                </div>
+                <div class="req-user1 flex justify-between align-center">
+                    <img src="./images/user-circle.png" alt="User Circle">
+                    <p>Todd E</p>
+                    <div class="req-icon1 flex">
+                        <img src="./icons/accept-circle.png" alt="Accept Circle">
+                        <img src="./icons/close-circle.png" alt="Close Circle">
+                    </div>
+                </div>
+                <div class="req-user2 flex justify-between align-center">
+                    <img src="./images/user-circle.png" alt="User Circle">
+                    <p>Phil K</p>
+                    <div class="req-icon2 flex">
+                        <img src="./icons/accept-circle.png" alt="Accept Circle">
+                        <img src="./icons/close-circle.png" alt="Close Circle">
+                    </div>
+                </div>
             </div>
         </div>
-        
         <div class="col-1">
         </div>
     </div>
-
-
-    <!-- ****************************************************************************************** -->
-
 </body>
 </html>

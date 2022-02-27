@@ -5,22 +5,7 @@
     margin:0px;
     padding:0px;
     font-family:'Courier New', Courier, monospace;
-}
-
-.flex {
-    display: flex;
-}
-
-.align-center {
-    align-items: center;
-}
-
-.justify-evenly {
-    justify-content: space-evenly;
-}
-
-.justify-between {
-    justify-content: space-between;
+    font-weight:bold;
 }
 
 /**************************** NAV BAR CSS ****************************/
@@ -30,6 +15,11 @@
     color: #17a2b8;
     padding: 5px;
 }
+.nav-content {
+    width: 80%;
+    margin: auto;
+}
+
 a{
     color: #17a2b8;
     text-decoration: none;
@@ -62,7 +52,6 @@ button.btn:hover{
 }
 
 .col-2 {
-    flex: 2;
     padding: 20px;
 }
 
@@ -104,11 +93,79 @@ button.btn:hover{
 
 /***************** CONNECTION REQUEST CSS ****************************/
 
-.col-1 img{
-    flex: 2;
-    padding: 20px;
-    height: 40px;
-    width: auto;
-    border-radius: 50%;
+.req-box {
+    height: 180px;
+    width: 300px;
+    margin: 0 auto;
+    border: 4px solid #333333;
+    background: #17a2b8;
 }
 
+.req-num {
+    background: #333333;
+    color: white;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+
+.req-num .req-circle {
+    background-color: white;
+    color: #17a2b8;
+    border-radius: 50%;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+
+.req-box img{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+span {
+    background-color: green;
+    border-radius: 50%;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-around {
+    align-content: space-around;
+}
+
+.align-evenly {
+    align-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-around {
+    justify-content:space-around
+}
